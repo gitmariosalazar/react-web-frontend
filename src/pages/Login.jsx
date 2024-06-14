@@ -192,7 +192,7 @@ function Login() {
                         </Link>
                       </div>
                       <div className="link-forgot">
-                        <Link href="#" variant="body2" className="f">
+                        <Link href="/users" variant="body2" className="f">
                           {"Don't have an account? Sign Up"}
                         </Link>
                       </div>
