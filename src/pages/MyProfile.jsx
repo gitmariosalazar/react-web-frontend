@@ -32,7 +32,7 @@ function MyProfile(props) {
   const [language, setLanguage] = useState([]);
   const [languageLevels, setLanguageLevels] = useState([]);
   const [languagesProgramming, setLanguagesProgramming] = useState([]);
-  const url = "https://app-sqlserver-python.vercel.app/";
+  const url = "https://app-sqlserver-python-two.vercel.app/";
   const user = props.user;
 
   useEffect(() => {

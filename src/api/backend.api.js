@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "https://app-sqlserver-python.vercel.app"
+const url = "https://app-sqlserver-python-two.vercel.app"
 
 const getUsers = async () => await (await axios.get(url + "/users/get_users"));
 

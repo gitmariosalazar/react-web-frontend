@@ -24,7 +24,7 @@ const UsersPage = () => {
   const [users, setUsers] = useState([]);
   const [genders, setGenders] = useState([]);
   const [rols, setRols] = useState([]);
-  const url = "https://app-sqlserver-python.vercel.app/";
+  const url = "https://app-sqlserver-python-two.vercel.app/";
 
   useEffect(() => {
     async function loadUsers() {

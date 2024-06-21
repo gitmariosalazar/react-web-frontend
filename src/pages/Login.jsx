@@ -23,7 +23,7 @@ import { InputsValidate } from "../utils/Validations";
 import Loglefth from "./Loglefth";
 
 function Copyright(props) {
-  const url = "https://app-sqlserver-python.vercel.app/";
+  const url = "https://app-sqlserver-python-two.vercel.app/";
   return (
     <Typography
       variant="body2"
@@ -53,7 +53,7 @@ function Login() {
   const handleChangePassword = async (e) => {
     setPassword(e.target.value);
   };
-  const url = "https://app-sqlserver-python.vercel.app/";
+  const url = "https://app-sqlserver-python-two.vercel.app/";
   let data = {
     id_user: id_user,
     password: password,

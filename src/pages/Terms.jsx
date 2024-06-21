@@ -19,7 +19,7 @@ function Terms(props) {
   const [educations, setEducations] = useState([]);
   const [educations_a, setEducationsA] = useState([]);
   const [educations_b, setEducationsB] = useState([]);
-  const url = "https://app-sqlserver-python.vercel.app/";
+  const url = "https://app-sqlserver-python-two.vercel.app/";
 
   const user = props.user;
 
